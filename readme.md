@@ -1,4 +1,4 @@
-# Terraform with Vault Integration
+# Terraform with Vault Integration version 1
 
 This is a sample project demonstrating the integration of **Terraform** with **Vault** for managing authentication, secrets, and policies for various teams.
 
@@ -31,6 +31,8 @@ Open the terraform.tfvars file and paste the Vault server root token and Address
 ```bash
 vault_server1_rtoken= "YOUR_VAULT_SERVER_ROOT_TOKEN"
 vault_server_address= "YOUR_VAULT_SERVER_ADDRESS"
+user1loginpass= "password"
+user2loginpass= "password"
 ```
 4. Run Terraform to apply the configuration:
 After saving the changes, run the following Terraform command to apply the configuration:
@@ -64,3 +66,7 @@ To remove the resources created by Terraform, run:
 ```bash
 terraform destroy -auto-approve
 ```
+
+
+
+

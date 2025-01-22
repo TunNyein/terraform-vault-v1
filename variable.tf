@@ -9,3 +9,15 @@ variable "vault_server_address" {
   description = "vault_server_Ip Addres"
   default = ""
 }
+
+variable "user1loginpass" {
+  type = string
+  default = ""
+  description = "Vault login password for user1"
+}
+
+variable "user2loginpass" {
+  type = string
+  default = ""
+  description = "Vault login password for user1"
+}
